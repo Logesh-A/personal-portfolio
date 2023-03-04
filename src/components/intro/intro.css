@@ -69,3 +69,45 @@
   right: 0;
   background-color: var(--gr);
 }
+
+.i-icon-wrapper{
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.i-icon-wrapper a {
+  text-decoration: none;
+  margin-right: 15px;
+  transition: all 0.2s;
+}
+
+.i-icon-wrapper a:hover {
+  transform: scale(1.3);
+}
+
+.i-icon-wrapper>a>i{
+  color: var(--gr);
+  font-size: 23px;
+}
+
+@media screen and (max-width: 480px){
+  .i{
+    flex-direction: column;
+  }
+  .i-left-wrapper{
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width : 1224px) {
+  .i{
+    height: 40vh;
+  }
+  .i-left-wrapper{
+    padding: 35px;
+  }
+}

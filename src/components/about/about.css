@@ -48,3 +48,39 @@
 .a-desc{
   font-weight: 300;
 }
+
+@media screen and (max-width: 480px){
+  .a{
+    height: 100%;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .a-left{
+    width: 100%;
+  }
+  
+  .a-card{
+    height: 30vh;
+  }
+
+  .a-right{
+    padding: 20px;
+  }
+
+  .a-left{
+    display: none;
+  }
+}
+
+@media only screen and (max-width : 1224px) {
+  .a{
+    height: 50vh;
+  }
+  .a-card{
+    height: 30vh;
+  }
+  .a-right{
+    padding: 30px;
+  }
+}

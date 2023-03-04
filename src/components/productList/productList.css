@@ -25,3 +25,25 @@
   justify-content: space-between;
   width: 100%;
 }
+
+@media screen and (max-width:480px){
+  .pl{
+    padding: 10px;
+  }
+  .pl-texts{
+    width: 100%;
+  }
+  .pl-title{
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 1224px){
+  .pl{
+    padding: 30px;
+  }
+  .pl-texts{
+    width: 80%;
+    margin-bottom: 30px;
+  }
+}
