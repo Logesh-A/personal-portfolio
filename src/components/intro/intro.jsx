@@ -1,5 +1,5 @@
 import "./intro.css";
-import myPic from "../../image/myPic.jpg";
+import man from "../../image/man.png"
 const Intro = () => {
   return (
     <div className="i">
@@ -20,7 +20,7 @@ const Intro = () => {
       <div className="i-right">
         <div className="i-right-wrapper">
           <div className="i-bg"></div>
-          <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cG9ydHJhaXR8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60" alt="fghj" className="i-img" />
+          <img src={man} alt="fghj" className="i-img" />
         </div>
       </div>
     </div>

@@ -1,0 +1,40 @@
+:root{
+  --lightGrey : rgb(236, 233, 233);
+}
+
+.p{
+  width: 30%;
+  height: 40vh;
+  transition: all 0.3s;
+  margin: 20px 10px;
+  border: 2px solid var(--lightGrey);
+  border-radius: 10px 10px 0px 0px;
+  overflow: hidden;
+}
+
+.p-browser{
+  height: 20px;
+  background-color: var(--lightGrey);
+  display: flex;
+  align-items: center;
+  position: sticky;
+  z-index: 2;
+}
+
+.p-circle{
+  height: 6px;
+  width: 6px;
+  background-color: white;
+  margin: 3px;
+  border-radius: 50%;
+}
+
+.p-img{
+  width: 100%;
+}
+
+.p:hover{
+  transform: scale(1.05);
+  box-shadow: 2px 2px 10px rgb(193, 191, 191);
+}
+
