@@ -5,14 +5,15 @@
 .f{
   border-top: 1px solid rgb(163, 161, 161);
   padding-top: 50px;
+  padding-bottom: 90px;
 }
 
-li a{
+.f li a{
   color: rgb(163, 161, 161);
   font-weight: 300;
 }
 
-ul{
+.f ul{
   list-style: none;
 }
 
@@ -40,7 +41,6 @@ ul{
 .f-copy{
   display: block;
   margin-top: 4.5rem;
-  padding-bottom: 90px;
   font-weight: 300;
   color: rgb(163, 161, 161);
 }

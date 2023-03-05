@@ -6,6 +6,8 @@ import Intro from "./components/intro/intro";
 import ProductList from "./components/productList/ProductList";
 import Skills from "./components/skills/skills";
 import Toggle from "./components/toggle/Toggle";
+import Navbar from "./components/navbar/Navbar";
+
 
 function App() {
   const changeTheme = (darkValue) => {
@@ -22,6 +24,7 @@ function App() {
   return (
     <div className="App" style={{color: "black", backgroundColor:"white"}}>
       <ToastContainer />
+      <Navbar />
       <Toggle changeTheme={changeTheme}/>
       <Intro />
       <About />

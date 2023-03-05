@@ -22,7 +22,7 @@
 
 .t{
   position: fixed;
-  top: 10px;
+  bottom: 10px;
   right: 10px;
   z-index: 999;
   display: flex;
