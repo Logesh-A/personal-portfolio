@@ -1,0 +1,64 @@
+:root {
+  --gr: #59b256;
+}
+
+.f{
+  border-top: 1px solid rgb(163, 161, 161);
+  padding-top: 50px;
+}
+
+li a{
+  color: rgb(163, 161, 161);
+  font-weight: 300;
+}
+
+ul{
+  list-style: none;
+}
+
+.f-title{
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.f-container{
+  text-align: center;
+}
+
+.f-list{
+  display: flex;
+  justify-content: center;
+  column-gap: 3rem;
+}
+
+.f-link a:hover{
+  color: rgb(50, 176, 50);
+}
+
+.f-copy{
+  display: block;
+  margin-top: 4.5rem;
+  padding-bottom: 90px;
+  font-weight: 300;
+  color: rgb(163, 161, 161);
+}
+
+.f-social{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 1rem;
+  margin-top: 20px;
+}
+
+.f-social-link a i{ 
+  color: var(--gr);
+  font-size: 27px;
+  transition: all 0.1s;
+}
+
+.f-social-link a i:hover{ 
+  color: green;
+}
