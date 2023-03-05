@@ -4,7 +4,6 @@
 
 .p{
   width: 30%;
-  height: 40vh;
   transition: all 0.3s;
   margin: 20px 10px;
   border: 2px solid var(--lightGrey);
@@ -38,16 +37,27 @@
   box-shadow: 2px 2px 10px rgb(193, 191, 191);
 }
 
+/* @media screen and (max-width:1224px){
+  .p{
+    height: 23vh;
+    width: 47%;
+  }
+}
 @media screen and (max-width:480px){
   .p{
     width: 40%;
     height: 14vh;
   }
+} */
+
+@media screen and (max-width: 660px){
+  .p{
+    width: 230px;
+  }
 }
 
-@media screen and (max-width:1224px){
+@media screen and (max-width:560px){
   .p{
-    height: 23vh;
-    width: 47%;
+    width: 100%;
   }
 }

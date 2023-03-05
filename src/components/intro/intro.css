@@ -16,7 +16,8 @@
 
 .i-right {
   flex: 1;
-  position: relative;
+  /* position: relative; */
+  /* position: static; */
   height: 100%;
 }
 
@@ -60,6 +61,9 @@
   justify-content: center;
 }
 
+.i-right-wrapper{
+  margin-top: 5rem;
+}
 .profile{
   background: url("../../image/IMG_1318-01.jpeg");
   background-repeat: no-repeat;
@@ -106,30 +110,34 @@
   transition: all 0.2s;
   font-size: 23px;
 }
+@media screen and (max-width: 950px){
+  .profile{
+    width: 300px;
+    height: 400px;
+  } 
+}
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 710px){
   .i{
     flex-direction: column;
+    padding-top: 40px;
+  }
+  /* .i-right{
+    background-color: #484e48;
+  } */
+  .i-desc{
+    width: 95%;
   }
   .i-left-wrapper{
-    padding: 20px;
     text-align: center;
     justify-content: center;
     align-items: center;
   }
   .profile{
     width: 300px;
-  }
-}
-
-@media only screen and (max-width : 1224px) {
-  .i{
-    height: 40vh;
-  }
-  .i-left-wrapper{
-    padding: 35px;
-  }
-  .profile{
     height: 300px;
+  }
+  .i-right-wrapper{
+    margin-top: 0;
   }
 }

@@ -17,10 +17,9 @@ const About = () => {
       </div>
       <div className="a-right">
         <h1 className="a-title">About Me</h1>
-        <p className="a-sub">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor sequi in neque culpa fugiat officiis asperiores optio tempora?
+        <p className="a-sub">Name : Logeshwaran A <br />Age : 20
         </p>
-        <p className="a-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque deserunt necessitatibus cumque unde quod adipisci magni dolorem, aliquam sit quas qui blanditiis ex rem reiciendis eius ea delectus? Magnam, nihil molestiae. Corporis at est quis beatae illo, harum id sed!
-        </p>
+        <p className="a-desc">A very passionate B.E Computer Science graduate who is seeking for an opportunity to grow and I have worked in bunch of projects. I am more intrested in developing attractive designs and functional websites. My strength in DSA and work experience in React JS highlights me more.</p>
         <a href={resume} download="Resume" className="resBtn"><div className="download">Download CV<i class="fa-solid fa-file-arrow-down"></i></div></a>
       </div>
     </div>

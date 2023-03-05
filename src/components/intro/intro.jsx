@@ -14,7 +14,7 @@ const Intro = () => {
             </div>
           </div>
           <p className="i-desc">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore maxime in quam eum. Ratione ipsam incidunt, beatae est necessitatibus eligendi.          
+            I design and develop services for customers of all sizes,<br></br>specializing creating stylish, modern websites, web services and online stores.      
           </p>
           <div className="i-icon-wrapper">
             <a href="https://www.instagram.com/logesh_ms_/" className="i-icon-links" target="_blank" rel="noreferrer"><i class="fa-brands fa-instagram"></i></a>

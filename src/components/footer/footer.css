@@ -4,8 +4,8 @@
 
 .f{
   border-top: 1px solid rgb(163, 161, 161);
-  padding-top: 50px;
-  padding-bottom: 90px;
+  padding-top: 30px;
+  padding-bottom: 70px;
 }
 
 .f li a{
@@ -61,4 +61,14 @@
 
 .f-social-link a i:hover{ 
   color: green;
+}
+
+@media screen and (max-width:800px){
+  .f{
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+  .f-copy{
+    margin-top: 2rem;
+  }
 }

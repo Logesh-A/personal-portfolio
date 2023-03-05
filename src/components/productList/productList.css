@@ -1,9 +1,10 @@
 .pl {
-  padding: 50px 100px;
+  padding: 50px 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
+  margin-top: 50px;
 }
 
 .pl-texts{
@@ -22,20 +23,8 @@
 .pl-list{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   width: 100%;
-}
-
-@media screen and (max-width:480px){
-  .pl{
-    padding: 10px;
-  }
-  .pl-texts{
-    width: 100%;
-  }
-  .pl-title{
-    font-size: 35px;
-  }
 }
 
 @media screen and (max-width: 1224px){
@@ -47,3 +36,26 @@
     margin-bottom: 30px;
   }
 }
+
+@media screen and (max-width: 660px){
+  .pl-title{
+    font-size: 40px;
+  }
+  
+}
+
+@media screen and (max-width:515px){
+  .pl{
+    padding: 10px;
+  }
+  .pl-texts{
+    width: 100%;
+  }
+  .pl-title{
+    font-size: 35px;
+  }
+  .pl-desc{
+    display: none;
+  }
+}
+

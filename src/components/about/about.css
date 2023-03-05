@@ -52,6 +52,7 @@
 
 .a-desc{
   font-weight: 300;
+  width: 80%;
 }
 
 .resBtn {
@@ -76,41 +77,52 @@
 .a-right a  div:hover {
   background-color: green;
 }
-a{
+.a a{
   text-decoration: none;
 }
-@media screen and (max-width: 480px){
-  .a{
-    height: 100%;
-    flex-direction: column;
-    text-align: center;
-    margin-top: 20px;
-  }
-  .a-left{
-    width: 100%;
-  }
-  
-  .a-card{
-    height: 30vh;
-  }
+/* .a-right{
+  background-color: #59b256;
+} */
 
-  .a-right{
-    padding: 20px;
+@media screen and (max-width: 900px){
+  .resBtn{
+    margin-left: 0px;
   }
-
   .a-left{
     display: none;
   }
-}
-
-@media only screen and (max-width : 1224px) {
   .a{
-    height: 50vh;
-  }
-  .a-card{
-    height: 30vh;
+    height: 100%;
+    text-align: center;
   }
   .a-right{
-    padding: 30px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .a-desc{
+    width: 90%;
+  }
+  .resBtn{
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 710px){
+  .a{
+    margin-top: 15%;
+  }
+}
+
+@media screen and (max-width: 550px){
+  .a{
+    margin-top: 20%;
+  }
+}
+
+@media screen and (max-width: 450px){
+  .a{
+    margin-top: 40%;
   }
 }
