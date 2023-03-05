@@ -87,6 +87,25 @@ button {
   border-radius: 10px;
   display: flex;
   align-items: center;
+  transition: all 0.2s;
+  /* width: 170px; */
+}
+
+button i{
+  font-size: 12px;
+  padding-left: 5px;
+}
+
+button:hover{
+  background-color: green;
+}
+
+.insideBtn {
+  transition: all 0.2s;
+}
+
+.insideBtn:hover{
+  padding-right: 10px;
 }
 
 @media screen and (max-width: 480px){

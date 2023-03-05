@@ -1,4 +1,7 @@
 import "./about.css"
+import aboutPic from "../../image/IMG_1318-01.jpeg"
+import resume from "./resume.pdf";
+
 const About = () => {
   return (
     <div className="a">
@@ -6,7 +9,7 @@ const About = () => {
         <div className="a-card bg"></div>
         <div className="a-card">
           <img 
-            src="https://images.unsplash.com/photo-1521119989659-a83eee488004?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cG9ydHJhaXR8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60" 
+            src= { aboutPic }
             alt="" 
             className="a-img"
           />
@@ -18,6 +21,7 @@ const About = () => {
         </p>
         <p className="a-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque deserunt necessitatibus cumque unde quod adipisci magni dolorem, aliquam sit quas qui blanditiis ex rem reiciendis eius ea delectus? Magnam, nihil molestiae. Corporis at est quis beatae illo, harum id sed!
         </p>
+        <a href={resume} download="Resume" className="resBtn"><div className="download">Download CV<i class="fa-solid fa-file-arrow-down"></i></div></a>
       </div>
     </div>
   );

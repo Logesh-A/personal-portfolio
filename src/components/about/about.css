@@ -1,3 +1,8 @@
+:root {
+  --gr: #59b256;
+}
+
+
 .a {
   height: 100vh;
   display: flex;
@@ -20,8 +25,8 @@
 .a-card.bg {
   position: absolute;
   top: 50px;
-  left: 50px;
-  background-color: grey;
+  left: 60px;
+  background-color: var(--gr);
 }
 .a-card{
   width: 60%;
@@ -49,12 +54,37 @@
   font-weight: 300;
 }
 
+.resBtn {
+  margin-left: 30px;
+}
+.resBtn div{
+  height: 30px;
+  background-color: var(--gr);
+  color: white;
+  border-radius: 10px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.download i{
+  padding-left: 10px;
+}
+.a-right a div{
+  transition: all 0.2s;
+}
+.a-right a  div:hover {
+  background-color: green;
+}
+a{
+  text-decoration: none;
+}
 @media screen and (max-width: 480px){
   .a{
     height: 100%;
     flex-direction: column;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 20px;
   }
   .a-left{
     width: 100%;

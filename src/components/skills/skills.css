@@ -1,3 +1,93 @@
-.s {
-  height: 100vh;
+:root {
+  --gr: #59b256;
+}
+
+
+.s-texts{
+  text-align: center;
+}
+
+.s-title{
+  font-weight: 600;
+  font-size: 50px;
+}
+
+.skill-container{
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.card1{
+  flex: 1;
+}
+
+.card2{
+  flex: 1;
+}
+
+.card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.in{
+  border: 1px solid rgb(126, 124, 124);
+  border-radius: 10px;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.each{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 25px;
+  transition: all 0.2s;
+}
+
+.each i{
+  margin-right: 10px;
+  color: var(--gr);
+}
+
+.particular-content p{
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.particular{
+  height: 100%;
+}
+
+.each:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+@media screen and (max-width:900px){
+  .skill-container{
+    flex-direction: column;
+  }
+  .card{
+    margin-top: 10px;
+  }
+  .each{
+    padding: 20px 30px;
+  }
+}
+
+@media screen and (max-width:480px){
+  .skill-container{
+    flex-direction: column;
+  }
+  .card{
+    margin-top: 10px;
+  }
+  .each{
+    padding: 15px 5px;
+  }
 }

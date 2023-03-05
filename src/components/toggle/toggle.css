@@ -1,17 +1,15 @@
 
 .toggle {
-  width: 70px;
-  height: 40px;
+  width: 27px;
+  height: 35px;
   display: flex;
   align-items: center;
   padding: 0px 10px;
   justify-content: center;
-  font-weight: 500;
 }
 
 .dark{
-  background-color: white;
-  color: green; 
+  background-color: white; 
   border-bottom-left-radius: 10px;
   border-top-left-radius: 10px;
 }
@@ -19,7 +17,6 @@
 .light{
   border-bottom-right-radius: 10px;
   border-top-right-radius: 10px;
-  color: white;
   background-color: green;
 }
 
@@ -36,8 +33,7 @@
 }
 
 .t img{
-  width: 20px;
-  height: 20px;
-  margin-left: 5px;
+  width: 17px;
+  height: 17px;
 }
 
