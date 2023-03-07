@@ -4,6 +4,7 @@
 
 .p{
   width: 30%;
+  height: 250px; 
   transition: all 0.3s;
   margin: 20px 10px;
   border: 2px solid var(--lightGrey);
@@ -30,25 +31,12 @@
 
 .p-img{
   width: 100%;
+  transition: all 10s ease;
 }
 
-.p:hover{
-  transform: scale(1.05);
-  box-shadow: 2px 2px 10px rgb(193, 191, 191);
+.p:hover .p-img{
+  transform: translateY(-100%);
 }
-
-/* @media screen and (max-width:1224px){
-  .p{
-    height: 23vh;
-    width: 47%;
-  }
-}
-@media screen and (max-width:480px){
-  .p{
-    width: 40%;
-    height: 14vh;
-  }
-} */
 
 @media screen and (max-width: 660px){
   .p{

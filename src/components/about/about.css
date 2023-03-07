@@ -43,7 +43,8 @@
 }
 
 .a-title{
-  font-weight: 400;
+  font-weight: 600;
+  font-size: 44px;
 }
 
 .a-sub{
@@ -80,9 +81,6 @@
 .a a{
   text-decoration: none;
 }
-/* .a-right{
-  background-color: #59b256;
-} */
 
 @media screen and (max-width: 900px){
   .resBtn{

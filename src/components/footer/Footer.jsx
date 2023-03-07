@@ -11,7 +11,7 @@ const Footer = () => {
             <a href="#about">About</a>
           </li>
           <li className="f-link">
-            <a href="#project">Projects</a>
+            <a href="#project">Portfolio</a>
           </li>
           <li className="f-link">
             <a href="#contact">Contacts</a>
@@ -23,7 +23,7 @@ const Footer = () => {
             <a target="_blank" rel="noreferrer" href="https://www.instagram.com/logesh_ms_/"><i class="fa-brands fa-square-instagram"></i></a>
           </div>
           <div className="f-social-link">
-            <a target="_blank" rel="noreferrer" href="https://www.instagram.com/logesh_ms_/"><i class="fa-brands fa-square-facebook"></i></a>
+            <a target="_blank" rel="noreferrer" href="https://www.facebook.com/logesh.msd.9"><i class="fa-brands fa-square-facebook"></i></a>
           </div>
           <div className="f-social-link">
             <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/logeshwaran7"><i class="fa-brands fa-linkedin"></i></a>

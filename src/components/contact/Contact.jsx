@@ -12,17 +12,17 @@ const Contact = () => {
   const formRef = useRef()
 
   const handleSubmit = (e) => {
-     e.preventDefault();
-
+    e.preventDefault();
     emailjs.sendForm(
       'service_nxmw49q', 
       'template_z9tnp3v', 
       formRef.current, 'TugBy0OrWMm5QSfF2'
     )
       .then((result) => {
-          toast.success("Mail Sent");
+        toast.success("Message Sent! Thank you..");
       }, (error) => {
-          console.log(error.text);
+        toast.error("Error! Resend message..");
+        console.log(error.text);
       });
   }
   return (

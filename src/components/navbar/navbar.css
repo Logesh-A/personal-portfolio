@@ -10,7 +10,7 @@ nav{
   padding: 10px;
   z-index: 999;
   width: 100%;
-  background-color: black;
+  background-color: rgb(29, 28, 28);
 }
 nav a{
   text-decoration: none;
@@ -19,6 +19,7 @@ nav a{
 #logo {
   float: left;
 }
+
 
 #logo span{
   font-size: 20px;
@@ -87,7 +88,7 @@ nav a{
     height: 100vh;
     padding: 40px 0px 0px 10px;
     transition: 0.3s ease-in-out;
-    background-color: black;
+    background-color: rgb(29, 28, 28);
   }
 
   #mobile {

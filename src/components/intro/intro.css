@@ -16,8 +16,6 @@
 
 .i-right {
   flex: 1;
-  /* position: relative; */
-  /* position: static; */
   height: 100%;
 }
 
@@ -122,9 +120,6 @@
     flex-direction: column;
     padding-top: 40px;
   }
-  /* .i-right{
-    background-color: #484e48;
-  } */
   .i-desc{
     width: 95%;
   }

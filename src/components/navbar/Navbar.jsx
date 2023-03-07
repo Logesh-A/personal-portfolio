@@ -13,10 +13,10 @@ const Navbar = () => {
           </a>
           <div className="nav-list-wrapper">
             <ul className={clicked ? "nav-list active" : "nav-list"}>
-              <li className="nav-links"><a href="#intro">Home</a></li>
-              <li className="nav-links"><a href="#about">About</a></li>
-              <li className="nav-links"><a href="#project">Projects</a></li>
-              <li className="nav-links"><a href="#contact">Contact</a></li>
+              <li className="nav-links"><a onClick={handleClick} href="#intro">Home</a></li>
+              <li className="nav-links"><a onClick={handleClick} href="#about">About</a></li>
+              <li className="nav-links"><a onClick={handleClick} href="#project">Portfolio</a></li>
+              <li className="nav-links"><a onClick={handleClick} href="#contact">Contact</a></li>
             </ul>
           </div>
 
